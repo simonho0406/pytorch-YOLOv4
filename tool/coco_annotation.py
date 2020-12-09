@@ -16,10 +16,9 @@ from tqdm import tqdm
 import os
 
 """hyper parameters"""
-json_file_path = 'D:\\OneDrive\\dip\\github-examples\\pytorch-YOLOv4\\data\\annotations\\instances_default.json'
-images_dir_path = 'D:\\OneDrive\\dip\\github-examples\\pytorch-YOLOv4\\data\\images'
-# output_path = '../data/val.txt'
-output_path = 'D:\\OneDrive'
+json_file_path = '../data/annotations/instances_default.json'
+images_dir_path = '../data/images'
+output_path = '../data/val.txt'
 
 """load json file"""
 name_box_id = defaultdict(list)

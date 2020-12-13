@@ -16,8 +16,9 @@ from tqdm import tqdm
 import os
 
 """hyper parameters"""
-json_file_path = '../data/20/test/_annotations.coco.json'
-images_dir_path = '../data/images'
+json_file_path = 'D:/OneDrive/dip/pytorch-YOLOv4/data/20/test/_annotations.coco.json'
+# images_dir_path = 'D:\\OneDrive\\dip\\pytorch-YOLOv4\\data\\20\\test'
+images_dir_path = 'D:/OneDrive/dip/pytorch-YOLOv4/data/20/test'
 output_path = '../data/test.txt'
 
 """load json file"""

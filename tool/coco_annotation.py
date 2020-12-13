@@ -16,9 +16,9 @@ from tqdm import tqdm
 import os
 
 """hyper parameters"""
-json_file_path = '../data/annotations/instances_default.json'
+json_file_path = '../data/20/test/_annotations.coco.json'
 images_dir_path = '../data/images'
-output_path = '../data/val.txt'
+output_path = '../data/test.txt'
 
 """load json file"""
 name_box_id = defaultdict(list)
